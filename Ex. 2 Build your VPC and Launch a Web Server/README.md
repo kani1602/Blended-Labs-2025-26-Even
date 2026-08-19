@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: KANISHKA V
+* **Register Number**: 212224100030
+* **Date of Submission**: 19/08/2026
 
 ---
 
@@ -85,35 +85,33 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
+1.Create a VPC with an IPv4 CIDR block.
+2.Create a public subnet inside the VPC.
+3.Create and attach an Internet Gateway (IGW) to the VPC.
+4.Create a Route Table and add route 0.0.0.0/0 → Internet Gateway.
+5.Associate the route table with the public subnet.
+6.Create a Security Group allowing SSH (22) and HTTP (80).
+7.Launch an EC2 instance in the public subnet with a public IP.
+8.Connect to the EC2 instance and install/configure a web server (Apache/Nginx).
+9.Create a simple HTML webpage.
+10.Access the webpage using the EC2 public IP address
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1917" height="1078" alt="Screenshot 2026-08-07 142621" src="https://github.com/user-attachments/assets/a95f27d5-0522-4b35-8b5c-ead0afd0b8f3" />
 
----
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1917" height="1083" alt="Screenshot 2026-08-07 145128" src="https://github.com/user-attachments/assets/cd70a5fb-1b89-4b26-8ff3-20a669df5ef5" />
 
----
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1600" height="909" alt="image" src="https://github.com/user-attachments/assets/af5af0f9-4b0c-4c28-9aea-76dfca791e2d" />
 
----
 
 ## Result 
 
