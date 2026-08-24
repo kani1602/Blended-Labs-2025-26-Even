@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: Kanishka.V
+* **Register Number**:212224100030
+* **Date of Submission**: 24/08/2026
 ---
 
 ## Objective
@@ -77,34 +76,38 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 ---
 
 ## Workflow (Student Explanation)
-
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+```
+1.Create an AWS VPC with a suitable IPv4 CIDR block.
+2.Create subnets within the VPC according to the required network design.
+3.Create and attach an Internet Gateway to the VPC.
+4.Create a Route Table and associate it with the required subnet.
+5.Configure routes to control communication between the subnet and external networks.
+6.Configure security settings such as security groups to control inbound and outbound traffic.
+7.Deploy AWS resources such as EC2 instances inside the VPC.
+8.Verify connectivity and security of the deployed resources.
+9.Monitor and manage the VPC and its resources.
+```
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1919" height="1048" alt="Screenshot 2026-08-23 223032" src="https://github.com/user-attachments/assets/963e04fe-b6b7-423e-8d74-8ce27ea3f057" />
+
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1919" height="1042" alt="Screenshot 2026-08-23 230049" src="https://github.com/user-attachments/assets/f674081a-b6bc-4810-b9f2-2cba63afb8e5" />
+
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1730" height="942" alt="image" src="https://github.com/user-attachments/assets/bfc439ae-aed0-4c0f-b051-5fe6049729bc" />
 
 ---
 
